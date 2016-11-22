@@ -13,8 +13,9 @@ cd gmp-6.1.1
 make  
 make check  
 make install  
-###### 继续安装strongswan
+###### 继续编译strongswan
 ./configure --prefix=/usr --sysconfdir=/etc  
 make  
+###### 安装strongswan
 su  
 make install  
