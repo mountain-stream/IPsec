@@ -16,6 +16,6 @@ make install
 ###### 继续编译strongswan
 ./configure --prefix=/usr --sysconfdir=/etc  
 make  
-###### 安装strongswan
+#### 安装strongswan
 su  
 make install  
